@@ -1,0 +1,174 @@
+body{
+    background-color: black;
+}
+
+.logo{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #ffc300;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px 5%;
+    flex-wrap: wrap;
+}
+
+li a{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.navigation li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navigation li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navigation li a:hover{
+    color: #ffc300;
+}
+
+.hej{
+    color: white;
+
+}
+
+.introduktion{
+    color: white;
+    margin-left: 12px;
+}
+
+button{
+    background: #ffc300;
+    border-radius: 20%;
+    margin-left: 350px;
+}
+
+.show{
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    font-family: sans-serif;
+}
+
+.showreel{
+    background-color: #343434;
+}
+
+video{
+    width: 450px;
+    margin-left: 10px;
+    margin-top: -30px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #343434;
+    padding: 0% 10%;
+    font-size: 10px;
+    text-align: center;
+}
+
+.linkedin{
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;
+}
+
+.container{
+    margin-top: -80px;
+}
+
+.portrætbillede{
+    margin: 10px;
+}
+
+.lidtommig{
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.picturecontainer{
+    position: relative;
+}
+
+.billedetekst{
+    position: absolute;
+    color: white;
+    bottom: 185px;
+    font-size: 17px;
+    font-family: sans-serif;
+    margin-left: 50px;
+}
+
+@media all and (min-width: 700px){
+    .logo{
+        font-size: 60px;
+    }
+    li a{
+        font-size: 20px;
+    }
+    .billedetekst{
+        font-size: 50px;
+        bottom: 550px;
+        margin-left: 200px;
+    }
+    .container{
+        margin-left: 100px;
+    }
+    .portrætbillede{
+        width: 800%;
+        height: 300px;
+    }
+    .lidtommig{
+        font-size: 30px;
+        padding-left: 400px;
+    }
+    .introduktion{
+        margin-right: 100px;
+        padding-left: 40px;
+        font-size: 20px;
+    }
+    button{
+        margin-left: 600px;
+        width: 100px;
+        height: 30px;
+        cursor: pointer;
+    }
+    .billedeogtekst{
+        display: flex;
+    }
+    .show{
+        font-size: 40px;
+        text-align: center;
+        padding-top: 10px;
+    }
+    video{
+        margin-left: 300px;
+        width: 800px;
+        height: 500px;
+        margin-top: -30px;
+    }
+    footer{
+        font-size: 17px;
+        padding: 0% 10%;
+      }
+      .linkedin{
+        height: 45px;
+        width: 50px;
+        padding-top: 10px;
+    }
+}
